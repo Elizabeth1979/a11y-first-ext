@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "a11y first",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/images/accessibility.png"
+    },
+    "permissions": ["tabs"]
+}

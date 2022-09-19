@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>a11y first</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/images/accessibility.png" alt="accessibility icon">
+            <h1>Usability and accessibility</h1>
+        </header>
+        <main class="main">
+            <h2>Color preferences</h2>
+            <label for="changeBackgroundColor">Choose background color</label>
+            <input type="color" name="color" id="changeBackgroundColor">
+            <button id="changeBgColorBtn">Change background color</button>
+            <br>
+            <label for="changeTextColor">Choose text color</label>
+            <input type="color" name="color" id="changeTextColor">
+            <button id="changeTxtColorBtn">Change text color</button>
+            
+            <h2>Preferences - TBD</h2>
+            <form>
+                <fieldset>
+                    <legend>Choose the adjustment</legend>
+                    <input type="checkbox" name="preference" id="focusIndicator">
+                    <label for="focusIndicator">Focus indicator</label>
+                    <input type="checkbox" name="preference" id="textSpacing">
+                    <label for="textSpacing">Text spacing</label>
+                </fieldset>
+                <button type="submit">Apply changes</button>
+            </form>
+            
+            <h2>Additional information</h2>
+            <p>How to <a href="https://www.w3.org/WAI/planning/statements/generator/#create">create an accessibility statement</a></p>
+        </main>
+        <footer>
+            <p>Created by e11i</p>
+        </footer>
+    </div>
+</body>
+</html>
